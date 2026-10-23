@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101226">
+  <meta name="description" content="Scopri l'oroscopo del mese: amore, lavoro, benessere e consigli per tutti i segni zodiacali. Nuove letture ogni mese su Luna di Stelle.">
+  <meta property="og:title" content="Luna di Stelle — Il tuo oroscopo del mese">
+  <meta property="og:description" content="Dodici segni, nuove prospettive. Scopri l'oroscopo mensile di Luna di Stelle.">
+  <title>Luna di Stelle — Oroscopo del mese</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Luna di Stelle, home"><span class="moon">☾</span><span><strong>Luna di Stelle</strong><small>Oroscopo del mese, ogni mese con te</small></span></a>
+  <nav><a href="#oroscopo">Oroscopo del mese</a><a href="#segni">Segni zodiacali</a><a href="#metodo">Il nostro approccio</a></nav>
+  <a class="nav-cta" href="#newsletter">Ricevi gli aggiornamenti <span>✦</span></a>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-stars" aria-hidden="true"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">✦ IL TUO SPAZIO TRA LE STELLE</p>
+    <h1>Un nuovo mese.<br><em>Nuove possibilità.</em></h1>
+    <p class="hero-text">Amore, lavoro, benessere e piccoli spunti per guardare la quotidianità da un'altra prospettiva. Trova il tuo segno e prenditi un momento tutto tuo.</p>
+    <a class="button button-gold" href="#segni">Scopri il tuo oroscopo <span>→</span></a>
+    <p class="hero-note">Una lettura leggera, da interpretare a modo tuo.</p>
+  </div>
+  <div class="zodiac-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="sun">✦</div><span class="z z1">♈</span><span class="z z2">♉</span><span class="z z3">♊</span><span class="z z4">♋</span><span class="z z5">♌</span><span class="z z6">♍</span><span class="z z7">♎</span><span class="z z8">♏</span><span class="z z9">♐</span><span class="z z10">♑</span><span class="z z11">♒</span><span class="z z12">♓</span></div>
+</section>
+<section class="intro section-wrap" id="oroscopo">
+  <div><p class="eyebrow dark-eyebrow">IL CIELO DEL MESE</p><h2 id="month-title">Il tuo oroscopo del mese</h2><p id="month-intro" class="intro-copy">Ogni mese porta con sé domande nuove e occasioni per fermarsi ad ascoltare. Scegli il tuo segno per leggere il messaggio dedicato a te.</p></div>
+  <aside class="moon-card"><span class="moon-card-icon">☾</span><p class="eyebrow">UNA PICCOLA NOTA</p><h3>Le stelle ispirano.<br>Le scelte sono tue.</h3><p>Usa queste parole come spunti di riflessione, non come previsioni certe del futuro.</p></aside>
+</section>
+<section class="signs-section section-wrap" id="segni">
+  <div class="section-heading"><div><p class="eyebrow dark-eyebrow">TROVA IL TUO SEGNO</p><h2>Quale storia ti parla oggi?</h2></div><p>Dodici segni, dodici prospettive.<br>Scegli una carta per leggere il tuo oroscopo.</p></div>
+  <div class="sign-grid" id="sign-grid" aria-live="polite"></div>
+</section>
+<section class="newsletter-section" id="newsletter">
+  <div class="newsletter-symbol">✉</div><div><p class="eyebrow">UNA LETTERA DALLE STELLE</p><h2>Il prossimo mese, nella tua casella.</h2><p>Lascia la tua email per ricevere l'oroscopo mensile e nuovi spunti zodiacali.</p></div>
+  <form id="newsletter-form"><label for="email">La tua email</label><div class="email-row"><input id="email" type="email" placeholder="nome@email.it" required><button class="button button-gold" type="submit">Avvisami <span>→</span></button></div><small>Demo: il modulo mostra un messaggio, ma non raccoglie né invia indirizzi finché non colleghi un servizio newsletter.</small><p id="form-message" role="status"></p></form>
+</section>
+<section class="about section-wrap" id="metodo"><p class="eyebrow dark-eyebrow">IL NOSTRO APPROCCIO</p><h2>Un momento per te, non una sentenza.</h2><p>Su Luna di Stelle raccontiamo l'astrologia con parole semplici, tono curioso e spazio per interpretare. I contenuti sono pensati per intrattenere e invitare alla riflessione: non promettono risultati e non sostituiscono le tue decisioni.</p></section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="moon">☾</span><span><strong>Luna di Stelle</strong><small>Segui la tua curiosità</small></span></a><p>© <span id="year"></span> Luna di Stelle · Contenuti di intrattenimento</p><div><a href="privacy.html">Privacy</a><a href="cookie.html">Cookie</a></div></footer>
+<dialog id="sign-dialog" class="sign-dialog"><button class="dialog-close" id="dialog-close" aria-label="Chiudi">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>

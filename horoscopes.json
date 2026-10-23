@@ -1,0 +1,138 @@
+{
+  "month": "Ottobre 2026",
+  "intro": "Un nuovo mese è un invito a fare spazio a ciò che conta davvero. Leggi il tuo segno come uno spunto di riflessione: le scelte restano sempre nelle tue mani.",
+  "signs": [
+    {
+      "name": "Ariete",
+      "symbol": "♈",
+      "dates": "21 marzo – 19 aprile",
+      "color": "coral",
+      "love": "Parla con sincerità, senza trasformare ogni confronto in una sfida. Un gesto semplice può riaprire un dialogo.",
+      "work": "Hai voglia di accelerare, ma scegliere una priorità alla volta ti aiuterà a ottenere risultati più solidi.",
+      "wellbeing": "Alterna movimento e pause vere. Non devi dimostrare di poter fare tutto nello stesso giorno.",
+      "fortune": "La tua occasione del mese potrebbe nascondersi in una conversazione spontanea.",
+      "advice": "Prima di dire sì, chiediti se hai davvero spazio per farlo."
+    },
+    {
+      "name": "Toro",
+      "symbol": "♉",
+      "dates": "20 aprile – 20 maggio",
+      "color": "teal",
+      "love": "La vicinanza si costruisce con presenza e piccoli gesti. Lascia che anche l'altra persona trovi il proprio ritmo.",
+      "work": "La costanza è il tuo punto di forza: rivedi un dettaglio rimasto in sospeso e potresti sbloccare il resto.",
+      "wellbeing": "Ritrova piacere nelle abitudini che ti fanno sentire a casa, senza rinunciare a una novità ogni tanto.",
+      "fortune": "Un consiglio pratico, dato al momento giusto, può rivelarsi prezioso.",
+      "advice": "Non confondere la sicurezza con la necessità di tenere tutto immobile."
+    },
+    {
+      "name": "Gemelli",
+      "symbol": "♊",
+      "dates": "21 maggio – 20 giugno",
+      "color": "gold",
+      "love": "Le parole aprono porte, ma ascoltare fino in fondo renderà più autentico ogni scambio.",
+      "work": "Idee e contatti non mancano: annota le intuizioni migliori e scegli quale trasformare in un piano concreto.",
+      "wellbeing": "Riduci il rumore digitale quando senti la mente correre in troppe direzioni.",
+      "fortune": "Una notizia inattesa può offrirti un punto di vista diverso.",
+      "advice": "La curiosità è una risorsa quando le dai una direzione."
+    },
+    {
+      "name": "Cancro",
+      "symbol": "♋",
+      "dates": "21 giugno – 22 luglio",
+      "color": "blue",
+      "love": "Cerca un dialogo in cui sentirti accolto, senza aspettarti che gli altri indovinino ciò che provi.",
+      "work": "Proteggi il tempo necessario per concentrarti: non ogni richiesta merita una risposta immediata.",
+      "wellbeing": "Una routine gentile e un po' di tempo per te possono rimettere a fuoco le priorità.",
+      "fortune": "Un legame fidato potrebbe aiutarti a vedere una possibilità che avevi trascurato.",
+      "advice": "Prenderti cura di te non significa deludere gli altri."
+    },
+    {
+      "name": "Leone",
+      "symbol": "♌",
+      "dates": "23 luglio – 22 agosto",
+      "color": "orange",
+      "love": "Lascia spazio alla reciprocità: essere generosi è ancora più bello quando anche tu ti senti visto.",
+      "work": "Mostra ciò che sai fare con sicurezza, mantenendo però curiosità per le idee del gruppo.",
+      "wellbeing": "Scegli attività che ti restituiscano energia, non solo impegni che riempiano l'agenda.",
+      "fortune": "Un piccolo riconoscimento può ricordarti quanto sei cresciuto.",
+      "advice": "Brilla senza dover essere sempre al centro."
+    },
+    {
+      "name": "Vergine",
+      "symbol": "♍",
+      "dates": "23 agosto – 22 settembre",
+      "color": "green",
+      "love": "Non cercare la frase perfetta: una verità detta con delicatezza vale più di un discorso impeccabile.",
+      "work": "Organizzare ti aiuta, ma lascia un margine per gli imprevisti e per ciò che non puoi controllare.",
+      "wellbeing": "Semplifica una cosa concreta nella tua giornata e concediti di non ottimizzare tutto.",
+      "fortune": "Un dettaglio che altri hanno ignorato potrebbe diventare il tuo vantaggio.",
+      "advice": "Il progresso non richiede perfezione."
+    },
+    {
+      "name": "Bilancia",
+      "symbol": "♎",
+      "dates": "23 settembre – 22 ottobre",
+      "color": "purple",
+      "love": "L'armonia non significa evitare ogni disaccordo: prova a dire ciò che desideri con calma e chiarezza.",
+      "work": "Una collaborazione può funzionare meglio se ruoli e aspettative vengono messi sul tavolo fin dall'inizio.",
+      "wellbeing": "Cerca bellezza nelle cose quotidiane, ma non sacrificare i tuoi bisogni per mantenere la pace.",
+      "fortune": "Un incontro interessante può nascere da un contesto abituale.",
+      "advice": "Un no gentile può essere più equilibrato di un sì forzato."
+    },
+    {
+      "name": "Scorpione",
+      "symbol": "♏",
+      "dates": "23 ottobre – 21 novembre",
+      "color": "plum",
+      "love": "La fiducia cresce con gesti coerenti. Fai una domanda diretta invece di riempire i silenzi con supposizioni.",
+      "work": "Concentrati su un obiettivo importante e conserva le energie per portarlo avanti con metodo.",
+      "wellbeing": "Lascia andare una tensione attraverso una pausa, una passeggiata o una conversazione sincera.",
+      "fortune": "Un cambiamento di prospettiva può rivelare una strada alternativa.",
+      "advice": "Non tutto ciò che è incerto è una minaccia."
+    },
+    {
+      "name": "Sagittario",
+      "symbol": "♐",
+      "dates": "22 novembre – 21 dicembre",
+      "color": "cyan",
+      "love": "La spontaneità porta leggerezza, purché tu sia chiaro sulle intenzioni e attento ai tempi altrui.",
+      "work": "Un progetto nuovo ti stimola: prima di partire, definisci il primo passo che puoi fare davvero.",
+      "wellbeing": "Cambia scenario, anche solo per poco, e ritrova spazio per pensare liberamente.",
+      "fortune": "Un contatto lontano potrebbe riaccendere un'idea interessante.",
+      "advice": "L'entusiasmo cresce quando diventa azione concreta."
+    },
+    {
+      "name": "Capricorno",
+      "symbol": "♑",
+      "dates": "22 dicembre – 19 gennaio",
+      "color": "brown",
+      "love": "Mostra ciò che provi anche attraverso parole semplici. Non devi avere tutto sotto controllo per essere affidabile.",
+      "work": "La disciplina ti sostiene: verifica i progressi e riconosci anche i risultati intermedi.",
+      "wellbeing": "Metti in agenda il riposo con la stessa serietà che riservi agli impegni.",
+      "fortune": "Una scelta paziente può preparare un risultato più avanti.",
+      "advice": "Il valore di una giornata non si misura solo da quanto produci."
+    },
+    {
+      "name": "Acquario",
+      "symbol": "♒",
+      "dates": "20 gennaio – 18 febbraio",
+      "color": "sky",
+      "love": "La tua indipendenza è importante, ma condividere un pensiero personale può avvicinare chi ti sta accanto.",
+      "work": "Sperimenta una soluzione diversa, poi ascolta i riscontri prima di rivoluzionare tutto.",
+      "wellbeing": "Circondati di stimoli che ti ispirano e proteggi qualche momento senza notifiche.",
+      "fortune": "Un'idea fuori dagli schemi può trovare finalmente un interlocutore curioso.",
+      "advice": "Essere originale non significa fare tutto da solo."
+    },
+    {
+      "name": "Pesci",
+      "symbol": "♓",
+      "dates": "19 febbraio – 20 marzo",
+      "color": "mint",
+      "love": "L'empatia è preziosa, ma ricorda di esprimere anche ciò di cui hai bisogno tu.",
+      "work": "Affianca l'intuizione a un piccolo piano scritto: sarà più facile capire da dove cominciare.",
+      "wellbeing": "Dedicati a qualcosa di creativo e non pretendere che ogni momento libero sia produttivo.",
+      "fortune": "Un gesto gentile può migliorare l'atmosfera più di quanto immagini.",
+      "advice": "Ascolta la sensibilità, senza lasciare che decida tutto al posto tuo."
+    }
+  ]
+}
